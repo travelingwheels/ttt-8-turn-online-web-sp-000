@@ -1,7 +1,3 @@
-def turn(board)
-  puts "Please enter 1-9:"
-end
-
 board = ["x","x","x"," "," "," "," "," "," "]
 
 def display_board(board)
@@ -37,3 +33,4 @@ def position_taken?(board, index)
       return true
    end
 end
+
